@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo apt-get update && sudo apt upgrade -y
 echo -n "请输入密码"
 read ALLINONEPWD
 cd $HOME
