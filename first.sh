@@ -22,4 +22,4 @@ source nucypher-venv/bin/activate
 export NUCYPHER_KEYRING_PASSWORD=$ALLINONEPWD && export NUCYPHER_WORKER_ETH_PASSWORD=$ALLINONEPWD
 echo -e '0\ny\n' | nucypher ursula init --provider ipc:/root/ethereum/geth.ipc --poa --network ibex
 nohup nucypher ursula run --provider ipc:/root/ethereum/geth.ipc --poa --network ibex > ursula_worker.log 2>&1 &
-exit 0
+geth attach ipc:/root/ethereum/geth.ipc
