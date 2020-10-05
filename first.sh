@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -n "请输入密码"
+echo -n "请输入密码："
 read ALLINONEPWD
 cd $HOME
 sudo apt update
