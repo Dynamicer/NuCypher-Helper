@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo apt-get update && sudo apt upgrade -y
-sudo apt install git
 echo -n "请输入密码"
 read ALLINONEPWD
 cd $HOME
