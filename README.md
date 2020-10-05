@@ -9,7 +9,7 @@ NuCypher 测试网 Staker + Worker 搭建一键包，综合了 [NuStart](https:/
 ## 准备
 
 - 服务器，内存大于 2G，建议配置 3C/4G/80GSSD
-- Infura 账号，并获取 WSS 地址，目前主网尚未上线，RINKEBY 测试网地址形如 wss://rinkeby.infura.io/ws/v3/5612d613d0877439731238d358
+- [Infura](https://infura.io/) 账号，并获取 WSS 地址，目前主网尚未上线，RINKEBY 测试网地址形如 wss://rinkeby.infura.io/ws/v3/5612d613d0877439731238d358
 
 ## 安装
 
