@@ -13,4 +13,4 @@ NuCypher 测试网 Staker + Worker 搭建一键包，综合了 [NuStart](https:/
 
 ## 安装
 
-[NuCypher-Helper 一键包使用教程](https://nufans.typlog.io/2020/nucypher-helper-yi-jian-bao-shi-yong-jiao-cheng-783002)
+[NuCypher-Helper 一键包使用教程](https://nufans.club/2020/nucypher-helper-yi-jian-bao-shi-yong-jiao-cheng-7830028c)
