@@ -12,3 +12,4 @@ sudo mv nucypher.txt /etc/systemd/system/nucypher.service
 sudo systemctl daemon-reload
 sudo systemctl enable nucypher
 sudo systemctl start nucypher
+reboot
