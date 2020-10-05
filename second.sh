@@ -5,7 +5,7 @@ echo -n "请输入 keystore 文件名，形如UTC--1970-01-01T13-16-00.690221616
 read keystore
 nucypher ursula init --signer keystore:///$HOME/.ethereum/keystore --provider $infura
 nucypher ursula run
-cd /root/nucypher_node && bash worker_bound.sh
+cd /root/NuCypher-Helper && bash worker_bound.sh
 echo -e "[Unit]\nDescription="NuCypher Node"\n[Service]\nUser=$USER\nType=simple\nEnvironment="NUCYPHER_WORKER_ETH_PASSWORD=$keystorepassw"\nEnvironment="NUCYPHER_KEYRING_PASSWORD=$keyring"\nExecStart=$HOME/nucypher-venv/bin/nucypher ursula run\nRestart=always\nRestartSec=3\n[Install]\nWantedBy=multi-user.target" > nucypher.txt
 sudo mv nucypher.txt /etc/systemd/system/nucypher.service
 sudo systemctl daemon-reload
